@@ -3,7 +3,7 @@ eureka:
   client:
     registry-fetch-interval-seconds: 30
   instance:
-    lease-renewal-interval-seconds: 30
+    lease-renewal-interval-in-seconds: 30
     lease-expiration-duration-in-seconds: 90
 
 #指定具体服务的负载均衡策略
